@@ -9,7 +9,7 @@ class Solution:
             else:
                 d[key]= 1
         
-        s = sorted(d.items(), key= lambda x:x[1], reverse=True )
+        s = sorted(d.items(), key=lambda x:x[1], reverse=True )
         ans= [ ]
         # print(d)
         for key,_ in s:
